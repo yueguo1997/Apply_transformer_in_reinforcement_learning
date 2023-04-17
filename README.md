@@ -2,9 +2,13 @@
 
 
 ## Background
+When feeding long distance sequences into a transformer model, it can become a hard problem due to several reasons:
 
+* Attention mechanism: The transformer model relies on the attention mechanism to attend to relevant parts of the input sequence. When the sequence is long, the number of attention calculations required increases significantly, leading to computational overhead and memory constraints.
 
+* Context window: The transformer model operates on fixed-size context windows, which limits the amount of context available to the model for making predictions. When dealing with long sequences, it becomes challenging to capture the relevant context effectively within these fixed-size windows.
 
+* Data sparsity: Long sequences often contain a large number of tokens, but many of them may be irrelevant or redundant. This can lead to data sparsity, which makes it challenging for the model to learn from the data effectively.
 
 
 ## Model card
@@ -35,15 +39,18 @@ The documents in the Reuters-21578 collection appeared on the Reuters newswire i
 
 In 1990, the documents were made available by Reuters and CGI for research purposes to the Information Retrieval Laboratory (W. Bruce Croft, Director) of the Computer and Information Science Department at the University of Massachusetts at Amherst. Formatting of the documents and production of associated data files was done in 1990 by David D. Lewis and Stephen Harding at the Information Retrieval Laboratory.
 
-Further formatting and data file production was done in 1991 and 1992 by David D. Lewis and Peter Shoemaker at the Center for Information and Language Studies, University of Chicago. This version of the data was made available for anonymous FTP as "Reuters-22173, Distribution 1.0" in January 1993. From 1993 through 1996, Distribution 1.0 was hosted at a succession of FTP sites maintained by the Center for Intelligent Information Retrieval (W. Bruce Croft, Director) of the Computer Science Department at the University of Massachusetts at Amherst.
+
+### Resumes
 
 
-#### Resumes
 
 
 ## Experiement
 
 ### News file classification
+
+
+![plot](https://github.com/yueguo1997/Document_classfication_by_Longformer/blob/dc3b1a88df840ce39e5e628bbd592ce7f62a9c97/Screen%20Shot%202023-04-15%20at%2010.38.15%20PM.png)
 
 
 ### Resume classfication 
