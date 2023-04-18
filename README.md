@@ -29,9 +29,9 @@ Attention mechanism: Both BERT and Longformer use the self-attention mechanism t
 ### AG News Dataset
 The AG News Dataset is a collection of news articles published between 1996 and 1998, which has been widely used for text classification tasks in natural language processing. The dataset consists of 120,000 news articles from four different categories: World, Sports, Business, and Science/Technology. Each article is labeled with one of the four categories, making it a multi-class classification problem.
 
-Title: The title of the news
-Text: The content of the news
-Class index: The calssification which the news belongs to
+* Title: The title of the news
+* Text: The content of the news
+* Class index: The calssification which the news belongs to
 
 | Dataset name| size |Average length | Classes|
 | ------------- | ------------- | ------------- | ------------- |
