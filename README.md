@@ -73,12 +73,13 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 
 | Model| Accuracy without title  |Accuracy with title  |
 | ------------- | ------------- |  ------------- | 
-| Longformer |0.89||
-| Bert|0.89 ||
+| Longformer |0.8973684210526316||
+| Bert|0.8967105263157895||
 
 <img src="https://github.com/yueguo1997/Bert-vs-Longformer-document-classification/blob/bff36b7a9100312b3f962714421a2d0f3811e11b/Screen%20Shot%202023-04-18%20at%202.29.14%20AM.png" width="360" height="220"><img src="https://github.com/yueguo1997/Bert-vs-Longformer-document-classification/blob/4d54b24152bcccba0a6a16d44b1379fb3e177a42/Screen%20Shot%202023-04-18%20at%202.28.41%20AM.png" width="360" height="220"/>
 
 
+<img src="https://github.com/yueguo1997/Bert-vs-Longformer-document-classification/blob/bff36b7a9100312b3f962714421a2d0f3811e11b/Screen%20Shot%202023-04-18%20at%202.29.14%20AM.png" width="360" height="220"><img src="https://github.com/yueguo1997/Bert-vs-Longformer-document-classification/blob/4d54b24152bcccba0a6a16d44b1379fb3e177a42/Screen%20Shot%202023-04-18%20at%202.28.41%20AM.png" width="360" height="220"/>
 
 
 ## Conclusion on project dataset
