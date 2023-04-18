@@ -94,12 +94,15 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 * Here I only use Bert base model to compare with Longformer. The Bert Large model still need to be experimented. 
 
 ## Reference
+[Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150)
 
-[Bert model]()
+[Brief Review — Longformer: The Long-Document Transformer](https://sh-tsang.medium.com/brief-review-longformer-the-long-document-transformer-8ab204d56613)
 
-[Longformer model]()
+[Bert model](https://huggingface.co/bert-base-uncased)
 
-[Experiment notebook]()
+[Longformer model](https://huggingface.co/docs/transformers/model_doc/longformer)
+
+[Experiment notebook](https://github.com/yueguo1997/Bert-vs-Longformer-document-classification/blob/main/longformer.ipynb)
 
 [Video]()
 
