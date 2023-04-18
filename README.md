@@ -35,7 +35,6 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 
 | Dataset name| size |Average length | Classes|
 | ------------- | ------------- | ------------- | ------------- |
-| Resumes  | 130 |1k |3|
 | News  | 120000  |30| 7|
 
 ## Methods
