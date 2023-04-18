@@ -71,16 +71,18 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 
 * Test accuracy
 
-| Model| Accuracy without tile  |Accuracy with tile  |
+| Model| Accuracy without title  |Accuracy with title  |
 | ------------- | ------------- |  ------------- | 
-| Longformer |0.8973684210526316||
-| Bert| ||
+| Longformer |0.89||
+| Bert|0.89 ||
 
 ## Conclusion on project dataset
 * Bert model costs less time during the training than Longformer 
-* 
+* The performance f these two models are really close
+* Longformer can handle much longer input sequence then Bert Model
 
 ## Critical Analysis
+
 * The text in this dataset is not long enough. 
 
 * Here I only use Bert base model to compare with Longformer. The Bert Large model still need to be experimented. 
