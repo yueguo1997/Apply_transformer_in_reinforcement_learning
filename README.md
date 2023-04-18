@@ -1,15 +1,9 @@
 # Bert vs Longformer - document classification
 
 ## Background
-Project is aimed at compare the performance of bert and longformer model based on document classification task. 
+Project is aimed at compare the performance of bert and longformer model based on document classification task.
+
 Document classification is an important task in natural language processing that has many practical applications. It enables efficient organization and retrieval of information, personalization and recommendation, spam filtering, sentiment analysis, and compliance with regulatory requirements.
-
-When classifying documents thorugh a transformer model, it can become a hard problem due to several reasons:
-* Attention mechanism: The transformer model relies on the attention mechanism to attend to relevant parts of the input sequence. When the sequence is long, the number of attention calculations required increases Asignificantly, leading to computational overhead and memory constraints.
-
-* Context window: The transformer model operates on fixed-size context windows, which limits the amount of context available to the model for making predictions. When dealing with long sequences, it becomes challenging to capture the relevant context effectively within these fixed-size windows.
-
-* Data sparsity: Long sequences often contain a large number of tokens, but many of them may be irrelevant or redundant. This can lead to data sparsity, which makes it challenging for the model to learn from the data effectively.
 
 ## Model card
 
@@ -32,20 +26,29 @@ Attention mechanism: Both BERT and Longformer use the self-attention mechanism t
 
 
 ## Dataset description
-
-### Resumes
-This dataset is dealing with only has 130 samples in total, including good, bad ans medium performance resumes. 
-
 ### AG News Dataset
 The AG News Dataset is a collection of news articles published between 1996 and 1998, which has been widely used for text classification tasks in natural language processing. The dataset consists of 120,000 news articles from four different categories: World, Sports, Business, and Science/Technology. Each article is labeled with one of the four categories, making it a multi-class classification problem.
+
+Title: The title of the news
+Text: The content of the news
+Class index: The calssification which the news belongs to
 
 | Dataset name| size |Average length | Classes|
 | ------------- | ------------- | ------------- | ------------- |
 | Resumes  | 130 |1k |3|
 | News  | 120000  |30| 7|
 
+## Methods
+
+* Data process
+* Model calling
+* Training
+* 
+
 ## Experiement
-### Resume classfication 
+
+
+### News file classification
 * Maximum length
 
 | Model| 512 |1024 |2048 |4096 |8192 |
@@ -53,8 +56,6 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 | Longformer | yes | yes | yes| yes|no|
 | Bert| yes | no | no |no|no|
 
-
-### News file classification
 
 * Training curve
 
@@ -66,19 +67,18 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 
 
 * Test accuracy
-| Model| Accuracy |
-| ------------- | ------------- | 
-| Longformer |0.8973684210526316|
-| Bert| yes | 
+| Model| Accuracy without tile  |Accuracy with tile  |
+| ------------- | ------------- |  ------------- | 
+| Longformer |0.8973684210526316||
+| Bert| ||
 
 ## Conclusion
 
 
-## Next step
+## Critical Analysis
+* The text in this dataset is not long enough. 
 
-* Use longer document dataset with an average length about 512 to compare two models
-* 
-
+* Here I only use Bert base model to compare with Longformer. The Bert Large model still need to be experimented. 
 
 ## Reference
 [Bert model]()
