@@ -24,7 +24,7 @@ Longformer is a transformer-based language model designed to process long sequen
 
 The key innovation of Longformer is its attention mechanism, which is designed to consider a global context of the input sequence while still being computationally efficient. Unlike the standard transformer model, which attends to all tokens in the input sequence, Longformer selectively attends to a subset of tokens based on their relevance to the current token. This is achieved using a sliding window approach, where the attention mechanism considers a fixed-size window of tokens at a time, but can still take into account the entire input sequence.
 
-![plot](https://miro.medium.com/v2/resize:fit:876/0*ViwaI3Vvbnd-CJSQ.png)
+<img src="https://github.com/yueguo1997/Document_classfication_by_Longformer/blob/11536dfe50b5463c84874600c056795160fa301a/Screen%20Shot%202023-04-17%20at%209.28.27%20PM.png" width="520" height="720"/>
 
 ### Difference between the models
 
