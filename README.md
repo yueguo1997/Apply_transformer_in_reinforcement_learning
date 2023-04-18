@@ -1,9 +1,8 @@
 # Bert vs Longformer - document classification
 
 ## Background
-When feeding long distance sequences into a transformer model, it can become a hard problem due to several reasons:
-
-* Attention mechanism: The transformer model relies on the attention mechanism to attend to relevant parts of the input sequence. When the sequence is long, the number of attention calculations required increases significantly, leading to computational overhead and memory constraints.
+When classifying documents thorugh a transformer model, it can become a hard problem due to several reasons:
+* Attention mechanism: The transformer model relies on the attention mechanism to attend to relevant parts of the input sequence. When the sequence is long, the number of attention calculations required increases Asignificantly, leading to computational overhead and memory constraints.
 
 * Context window: The transformer model operates on fixed-size context windows, which limits the amount of context available to the model for making predictions. When dealing with long sequences, it becomes challenging to capture the relevant context effectively within these fixed-size windows.
 
@@ -23,7 +22,9 @@ Longformer is a transformer-based language model designed to process long sequen
 
 The key innovation of Longformer is its attention mechanism, which is designed to consider a global context of the input sequence while still being computationally efficient. Unlike the standard transformer model, which attends to all tokens in the input sequence, Longformer selectively attends to a subset of tokens based on their relevance to the current token. This is achieved using a sliding window approach, where the attention mechanism considers a fixed-size window of tokens at a time, but can still take into account the entire input sequence.
 
-### Difference 
+### Difference between the models
+
+Attention mechanism: Both BERT and Longformer use the self-attention mechanism to capture the relationships between different tokens in the input sequence. However, the attention mechanism in Longformer is modified to allow for long-range dependencies while keeping computational complexity under control. Specifically, Longformer uses a sliding window attention mechanism that only attends to a subset of the input tokens at a time, which reduces the computational cost while still allowing for long-range dependencies.
 
 
 ## Dataset description
@@ -61,8 +62,8 @@ In 1990, the documents were made available by Reuters and CGI for research purpo
 ### Resume classfication 
 
 * Maximum length
-| Model|  |Average length |
-| ------------- | ------------- |
+| Model|  Average length |Able to input|
+| ------------- | ------------- |------------- |
 | Longformer  | | |
 | Bert| | |
 
