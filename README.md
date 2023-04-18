@@ -94,12 +94,12 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 * Here I only use Bert base model to compare with Longformer. The Bert Large model still need to be experimented. 
 
 ## Reference
-[]()
+
 [Bert model]()
 
 [Longformer model]()
 
 [Experiment notebook]()
 
-
+[Video]()
 
