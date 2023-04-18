@@ -41,12 +41,13 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 
 | Dataset name| size |Average length | Classes|
 | ------------- | ------------- | ------------- | ------------- |
-| Resumes  | 130 |500|3|
+| Resumes  | 130 |1k |3|
 | News  | 120000  |30| 7|
 
 ## Experiement
 ### Resume classfication 
 * Maximum length
+
 | Model| 512 |1024 |2048 |4096 |8192 |
 | ------------- | ------------- | ------------- | ------------- |------------- |------------- |
 | Longformer | yes | yes |  yes| yes|no|
@@ -56,9 +57,13 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 ### News file classification
 
 * Training curve
+
 <img src="https://github.com/yueguo1997/Document_classfication_by_Longformer/blob/dc3b1a88df840ce39e5e628bbd592ce7f62a9c97/Screen%20Shot%202023-04-15%20at%2010.38.15%20PM.png" width="360" height="220"><img src="https://github.com/yueguo1997/Document_classfication_by_Longformer/blob/cb0f4f6201126ab81af13d70f74c823dd6d49a7a/Screen%20Shot%202023-04-15%20at%2010.38.19%20PM.png" width="360" height="220"/>
 
 * Training time
+
+<img src="https://github.com/yueguo1997/Document_classfication_by_Longformer/blob/8261a85bc4c6aa12573d54a13dc6ac7e7fd85656/Screen%20Shot%202023-04-17%20at%207.51.42%20PM.png" width="360" height="220"><img src="https://github.com/yueguo1997/Document_classfication_by_Longformer/blob/8261a85bc4c6aa12573d54a13dc6ac7e7fd85656/Screen%20Shot%202023-04-15%20at%2010.38.26%20PM.png" width="360" height="220"/>
+
 
 * Test accuracy
 
