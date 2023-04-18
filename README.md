@@ -8,7 +8,7 @@ Document classification is an important task in natural language processing that
 ## Model card
 
 ### Bert model
-BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained transformer-based language model introduced by Google in 2018. It is designed to produce context-aware word embeddings, which can be fine-tuned on downstream NLP tasks such as question answering, sentiment analysis, and natural language inference.
+BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained transformer-based language model introduced by Google in 2018. It is designed to produce context-aware word embeddings, which can be fine-tuned on downstream NLP tasks such as question answering.
 
 BERT is trained using a masked language modeling objective, where a random subset of words in the input sequence is masked, and the model is trained to predict the masked words. This allows the model to capture the bidirectional context of each word, enabling it to understand the meaning of a word in the context of the entire sentence.
 ![plot](https://miro.medium.com/v2/resize:fit:876/0*ViwaI3Vvbnd-CJSQ.png)
@@ -40,10 +40,14 @@ Class index: The calssification which the news belongs to
 
 ## Methods
 
-* Data process
-* Model calling
-* Training
-* 
+* Data process:
+  Used function to tokenize the text data in the 'text' field of the dictionary. DocumentClassificationDataset that converts tokenized data into PyTorch tensors. Created instances of DocumentClassificationDataset class and PyTorch dataloaders for training and testing data, with the data shuffled and split into batches.
+* Model calling:
+  Two pretrained models have already on huggingface
+* Training - 12000
+* Testing - 1500
+* Analysis
+  Generated classification report with the heatmap
 
 ## Experiement
 
@@ -67,13 +71,15 @@ Class index: The calssification which the news belongs to
 
 
 * Test accuracy
+
 | Model| Accuracy without tile  |Accuracy with tile  |
 | ------------- | ------------- |  ------------- | 
 | Longformer |0.8973684210526316||
 | Bert| ||
 
-## Conclusion
-
+## Conclusion on project dataset
+* Bert model costs less time during the training than Longformer 
+* 
 
 ## Critical Analysis
 * The text in this dataset is not long enough. 
@@ -84,4 +90,6 @@ Class index: The calssification which the news belongs to
 [Bert model]()
 
 [Longformer model]()
+
+
 
