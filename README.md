@@ -75,6 +75,10 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 | ------------- | ------------- |  ------------- | 
 | Longformer |0.89||
 | Bert|0.89 ||
+<img src="https://github.com/yueguo1997/Bert-vs-Longformer-document-classification/blob/bff36b7a9100312b3f962714421a2d0f3811e11b/Screen%20Shot%202023-04-18%20at%202.29.14%20AM.png" width="360" height="220"><img src="https://github.com/yueguo1997/Document_classfication_by_Longformer/blob/cb0f4f6201126ab81af13d70f74c823dd6d49a7a/Screen%20Shot%202023-04-15%20at%2010.38.19%20PM.png" width="360" height="220"/>
+
+
+
 
 ## Conclusion on project dataset
 * Bert model costs less time during the training than Longformer 
