@@ -104,5 +104,7 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 
 [Experiment notebook](https://github.com/yueguo1997/Bert-vs-Longformer-document-classification/blob/main/longformer.ipynb)
 
+[AC News Dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
+
 [Video]()
 
