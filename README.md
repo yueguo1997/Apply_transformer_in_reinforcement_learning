@@ -50,7 +50,7 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 
 | Model| 512 |1024 |2048 |4096 |8192 |
 | ------------- | ------------- | ------------- | ------------- |------------- |------------- |
-| Longformer | yes | yes |  yes| yes|no|
+| Longformer | yes | yes | yes| yes|no|
 | Bert| yes | no | no |no|no|
 
 
@@ -66,13 +66,18 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 
 
 * Test accuracy
-
+| Model| Accuracy |
+| ------------- | ------------- | 
+| Longformer |0.8973684210526316|
+| Bert| yes | 
 
 ## Conclusion
 
 
 ## Next step
 
+* Use longer document dataset with an average length about 512 to compare two models
+* 
 
 
 ## Reference
