@@ -50,7 +50,6 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 
 ## Experiement
 
-
 ### News file classification
 * Maximum length
 
@@ -61,6 +60,8 @@ The AG News Dataset is a collection of news articles published between 1996 and 
 
 
 * Training curve
+
+Longformer                                                                         Bert
 
 <img src="https://github.com/yueguo1997/Document_classfication_by_Longformer/blob/dc3b1a88df840ce39e5e628bbd592ce7f62a9c97/Screen%20Shot%202023-04-15%20at%2010.38.15%20PM.png" width="360" height="220"><img src="https://github.com/yueguo1997/Document_classfication_by_Longformer/blob/cb0f4f6201126ab81af13d70f74c823dd6d49a7a/Screen%20Shot%202023-04-15%20at%2010.38.19%20PM.png" width="360" height="220"/>
 
