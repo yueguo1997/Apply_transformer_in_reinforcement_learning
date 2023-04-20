@@ -107,5 +107,5 @@ Longformer                                                                      
 
 [AC News Dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
 
-[Video]()
+[Video](https://drive.google.com/file/d/1ws4RCLy96QtQaIx1OSJdJ1Undvb7X6NM/view?usp=sharing)
 
